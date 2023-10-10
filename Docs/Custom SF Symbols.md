@@ -37,4 +37,5 @@ A symbol as a SVG file supports a full 27 variants, while a single scale SVG fil
 Source: [CustomSFSymbolsContentView.swift](../HelloSwiftUIImage/CustomSFSymbolsContentView.swift)
 
 Demo:
-<img src="../Images/Custom SF Symbols Demo.png" alt="Custom SF Symbols Demo" style="zoom:25%;" />
+
+<img src="../Images/Custom SF Symbols Demo.png" alt="Custom SF Symbols Demo" width="25%" />
