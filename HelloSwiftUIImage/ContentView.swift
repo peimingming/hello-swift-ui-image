@@ -14,8 +14,11 @@ struct ContentView: View {
                 NavigationLink("CustomSFSymbolsContentView") {
                     CustomSFSymbolsContentView()
                 }
+                NavigationLink("ImageResourceContentView") {
+                    ImageResourceContentView()
+                }
             }
-            .navigationTitle("Demo Views")
+            .navigationTitle("Image Demo Views")
         }
     }
 }

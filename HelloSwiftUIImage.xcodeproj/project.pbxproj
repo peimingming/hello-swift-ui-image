@@ -12,6 +12,7 @@
 		63B152692AD5C6F500D8943E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B152682AD5C6F500D8943E /* Assets.xcassets */; };
 		63B1526C2AD5C6F500D8943E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B1526B2AD5C6F500D8943E /* Preview Assets.xcassets */; };
 		63B152732AD5E1CB00D8943E /* CustomSFSymbolsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B152722AD5E1CB00D8943E /* CustomSFSymbolsContentView.swift */; };
+		63DAE8F32ADC3BA8001F96D2 /* ImageResourceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DAE8F22ADC3BA8001F96D2 /* ImageResourceContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		63B152682AD5C6F500D8943E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B1526B2AD5C6F500D8943E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63B152722AD5E1CB00D8943E /* CustomSFSymbolsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSFSymbolsContentView.swift; sourceTree = "<group>"; };
+		63DAE8F22ADC3BA8001F96D2 /* ImageResourceContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResourceContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				63B152642AD5C6F300D8943E /* HelloSwiftUIImageApp.swift */,
 				63B152662AD5C6F300D8943E /* ContentView.swift */,
 				63B152722AD5E1CB00D8943E /* CustomSFSymbolsContentView.swift */,
+				63DAE8F22ADC3BA8001F96D2 /* ImageResourceContentView.swift */,
 				63B152682AD5C6F500D8943E /* Assets.xcassets */,
 				63B1526A2AD5C6F500D8943E /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				63B152672AD5C6F300D8943E /* ContentView.swift in Sources */,
 				63B152732AD5E1CB00D8943E /* CustomSFSymbolsContentView.swift in Sources */,
+				63DAE8F32ADC3BA8001F96D2 /* ImageResourceContentView.swift in Sources */,
 				63B152652AD5C6F300D8943E /* HelloSwiftUIImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +277,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUIImage/Preview Content\"";
+				DEVELOPMENT_TEAM = T69Z9BV3Q5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -291,6 +297,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HelloSwiftUIImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,9 +309,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloSwiftUIImage/Preview Content\"";
+				DEVELOPMENT_TEAM = T69Z9BV3Q5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +329,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.HelloSwiftUIImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
