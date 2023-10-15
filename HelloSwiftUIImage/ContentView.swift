@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CustomSFSymbolsContentView()
+        NavigationView {
+            List {
+                NavigationLink("CustomSFSymbolsContentView") {
+                    CustomSFSymbolsContentView()
+                }
+            }
+            .navigationTitle("Demo Views")
+        }
     }
 }
 

@@ -10,8 +10,6 @@ import SwiftUI
 struct CustomSFSymbolsContentView: View {
     var body: some View {
         VStack {
-            Text("Custom SF Symbols Demo")
-                .font(.title)
             List {
                 Tile(title: "Single path:", imageName: "custom.circle (copy)")
                 Tile(title: "Full 27 paths:", imageName: "custom.circle (template)")
@@ -19,11 +17,14 @@ struct CustomSFSymbolsContentView: View {
             }
             
             VStack(alignment: .leading) {
+                Text("Official document: https://developer.apple.com/documentation/uikit/uiimage/creating_custom_symbol_images_for_your_app.")
                 Text("1. A single path SVG file may only support sizing and coloring.")
                 Text("2. A full 27 paths SVG file supports all the SF symbols functionalities besides sizing and coloring, i.e. can be set as bold font.")
             }
         }
         .padding()
+        .navigationTitle("Custom SF Symbols Demo")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -38,7 +39,7 @@ struct Tile: View {
                 HStack {
                     Image(imageName)
                     Image(imageName)
-                        .bold()
+                        .font(.body.weight(.bold))
                     Image(imageName)
                         .foregroundColor(.red)
                 }
