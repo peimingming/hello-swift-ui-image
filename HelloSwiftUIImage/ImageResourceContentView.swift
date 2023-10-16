@@ -6,14 +6,23 @@
 //
 
 import SwiftUI
+import HelloSwiftUIImagePackage
 
 struct ImageResourceContentView: View {
     var body: some View {
         VStack {
             List {
-                Image(.customCircleCopy)
-                Image(.customCircleSymbol)
-                Image(.customCircleTemplate)                
+                Section(header: Text("Images from the main app")) {
+                    Image(.customCircleCopy)
+                    Image(.customCircleSymbol)
+                    Image(.customCircleTemplate)
+                }
+                
+                Section(header: Text("Images from a Swift package")) {
+                    Image.customPencil
+                    Image.customEraser
+                    Image.customBag
+                }
             }
             
             VStack(alignment: .leading) {

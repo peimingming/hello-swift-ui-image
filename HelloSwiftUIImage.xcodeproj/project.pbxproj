@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635A0A3A2ADC4D82006BF482 /* HelloSwiftUIImagePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 635A0A392ADC4D82006BF482 /* HelloSwiftUIImagePackage */; };
 		63B152652AD5C6F300D8943E /* HelloSwiftUIImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B152642AD5C6F300D8943E /* HelloSwiftUIImageApp.swift */; };
 		63B152672AD5C6F300D8943E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B152662AD5C6F300D8943E /* ContentView.swift */; };
 		63B152692AD5C6F500D8943E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B152682AD5C6F500D8943E /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635A0A3A2ADC4D82006BF482 /* HelloSwiftUIImagePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,9 @@
 			dependencies = (
 			);
 			name = HelloSwiftUIImage;
+			packageProductDependencies = (
+				635A0A392ADC4D82006BF482 /* HelloSwiftUIImagePackage */,
+			);
 			productName = HelloSwiftUIImage;
 			productReference = 63B152612AD5C6F300D8943E /* HelloSwiftUIImage.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 63B152582AD5C6F300D8943E;
+			packageReferences = (
+				635A0A382ADC4D82006BF482 /* XCRemoteSwiftPackageReference "hello-swift-ui-image-package" */,
+			);
 			productRefGroup = 63B152622AD5C6F300D8943E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		635A0A382ADC4D82006BF482 /* XCRemoteSwiftPackageReference "hello-swift-ui-image-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/peimingming/hello-swift-ui-image-package.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		635A0A392ADC4D82006BF482 /* HelloSwiftUIImagePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 635A0A382ADC4D82006BF482 /* XCRemoteSwiftPackageReference "hello-swift-ui-image-package" */;
+			productName = HelloSwiftUIImagePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63B152592AD5C6F300D8943E /* Project object */;
 }

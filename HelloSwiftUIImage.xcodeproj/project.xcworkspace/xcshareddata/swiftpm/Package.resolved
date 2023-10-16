@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "hello-swift-ui-image-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/peimingming/hello-swift-ui-image-package.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d0ac592a5634cf962a20eee61633575d1aa44518"
+      }
+    }
+  ],
+  "version" : 2
+}
