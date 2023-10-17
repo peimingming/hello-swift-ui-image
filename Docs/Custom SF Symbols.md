@@ -14,7 +14,7 @@ This is an article that we could treat SF symbols as a library of images resourc
 
 The difference between step 4 and 5 is:
 A symbol as a SVG file supports a full 27 variants, while a single scale SVG file only supports part of them.
-![symbol 27 variants](../Images/Symbol 27 variants.png)
+![symbol 27 variants](../Images/Symbol%2027%20variants.png)
 
 ### Benefits from the article
 
@@ -22,9 +22,9 @@ A symbol as a SVG file supports a full 27 variants, while a single scale SVG fil
 
 2. SF symbols support 27 variants, and we could also configure our own variant as per requirements, a single path SVG file is much smaller after all, i.e.:
    
-   | 27 paths                                              | single path                                                 |
-   | ----------------------------------------------------- | ----------------------------------------------------------- |
-   | ![27 paths SVG file](../Images/27 paths SVG file.png) | ![Single path SVG file](../Images/Single path SVG file.png) |
+   | 27 paths                                                    | single path                                                  |
+   | ----------------------------------------------------------- | ------------------------------------------------------------ |
+   | ![27 paths SVG file](../Images/27%20paths%20SVG%20file.png) | ![Single path SVG file](../Images/Single%20path%20SVG%20file.png) |
 
 ### Suggestions
 
@@ -38,4 +38,4 @@ Source: [CustomSFSymbolsContentView.swift](../HelloSwiftUIImage/CustomSFSymbolsC
 
 Demo:
 
-<img src="../Images/Custom SF Symbols Demo.png" alt="Custom SF Symbols Demo" width="25%" />
+<img src="../Images/Custom%20SF%20Symbols%20Demo.png" alt="Custom SF Symbols Demo" width="25%" />

@@ -17,5 +17,5 @@ Source: [ImageResourceContentView.swift](../HelloSwiftUIImage/ImageResourceConte
 
 Demo:
 
-<img src="../Images/ImageResource Demo.png" alt="ImageResource Demo" width="25%" />
+<img src="../Images/ImageResource%20Demo.png" alt="ImageResource Demo" width="25%" />
 
