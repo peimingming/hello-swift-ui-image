@@ -1,7 +1,9 @@
 # Hello SwiftUI Image
 Demo of SwiftUI Image.
 
+## Prerequisites
 
+1. Xcode 15
 
 ## Docs
 
